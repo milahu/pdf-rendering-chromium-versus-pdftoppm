@@ -8,3 +8,9 @@ it creates a slightly different result than the chromium pdf renderer:
 with pdftoppm, fine black lines are darker, so overall, the graphic looks darker
 
 ![](pdf-rendering-chromium-versus-pdftoppm-png-720dpi.png)
+
+the screenshot is with chromium PDF reader at full zoom (500%) which gives the same size as a 720dpi resolution image
+
+i have tried running pdftoppm with different options, and only `-aaVector no` makes the result worse. so i guess im looking for a PDF rendering engine with more vector anti-aliasing.
+
+upstream issue: https://gitlab.freedesktop.org/poppler/poppler/-/issues/1423
