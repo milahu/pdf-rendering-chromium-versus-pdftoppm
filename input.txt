@@ -1,0 +1,25 @@
+$ du -h input.pdf 
+71M     input.pdf
+
+$ pdfinfo input.pdf 
+Title:           Die 7 Wege zu glücklichen Beziehungen
+Keywords:        ISBN: 3-96740-054-0
+Author:          Stephen R. Covey
+Creator:         Adobe InDesign 16.0 (Windows)
+Producer:        Adobe PDF Library 15.0
+CreationDate:    Wed Feb  3 15:25:12 2021 CET
+ModDate:         Wed Feb  3 15:29:09 2021 CET
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           152
+Encrypted:       no
+Page size:       419.528 x 637.795 pts
+Page rot:        0
+File size:       74258862 bytes
+Optimized:       no
+PDF version:     1.5
