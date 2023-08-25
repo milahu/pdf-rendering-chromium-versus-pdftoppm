@@ -18,3 +18,15 @@ i have tried running pdftoppm with different options, and only `-aaVector no` ma
 | ![](page-061.input-vectors.pdf.720dpi.png.trim.png) | ![](page-061.input-vectors.pdf.720dpi.aaVector-no.png.trim.png) |
 
 upstream issue: https://gitlab.freedesktop.org/poppler/poppler/-/issues/1423
+
+## fix: use pdftocairo
+
+pdftocairo gives the same result as the chrome PDF viewer
+
+```
+pdftocairo -png -r 720 input.pdf pdf-rendering-pdftocairo-720dpi
+```
+
+| `chrome PDF viewer` | `pdftocairo -png` |
+| ------ | ------ |
+| ![](pdf-rendering-chromium-720dpi.png) | ![](pdf-rendering-pdftocairo-720dpi.png) |
